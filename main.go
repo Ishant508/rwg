@@ -7,7 +7,7 @@ import (
 	"github.com/roz3x/rwg/html"
 	"github.com/roz3x/rwg/passage"
 )
-
+//this stuff is only available in main pkg
 var (
 	count     = flag.Int("v", 10, "give the max length of word")
 	passagein = flag.Int("p", 10, "give the no of words")
